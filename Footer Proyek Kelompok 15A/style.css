@@ -1,74 +1,40 @@
-/* bagian main service */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-* {
-    box-sizing: border-box;
+.footer {
+	color: white;
+	text-align: center;
+	font-family: 'Roboto';
+	background-color: black;
+	height: 387px;
+	top: 3052px;
 }
-
-.main{
-    float: left;
-    padding-left: 100px;
-    
+.footer-logo {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	line-height: 41px;
+	left: 606;
+	height: 41px;
+	top: 3082px;
 }
-
-
-.main h1{
-    position: absolute;
-    width: 238px;
-    height: 46px;
-    left: 103px;
-    top: 965px;
-
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 39px;
-    line-height: 46px;
+img {
+	padding: 20px 35px;
+	height: 35px;
+	width: 35px;
 }
-
-.service p{
-    position: absolute;
-    width: 468px;
-    height: 168px;
-    left: 103px;
-    top: 1035px;
-    font-family: "roboto";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 28px;
-    text-align: justify;   
+.footer-logo {
+	padding: 40px 40px;
 }
-.btn-service{
-    position: absolute;
-    width: 284px;
-    height: 28px;
-    left: 103px;
-    top: 1200px;
-    font-family: "roboto";
-    font-weight: normal;
-    line-height: 28px;
-    text-align: justify;
-    
+li {
+	list-style: none;
+	font-family: 'Roboto';
+	font-size: 25px;
+	float: left;
+	padding: 33px 20px;
+	text-align: center;
 }
-
-button{
-    font-size: 15px;
-    font-style: normal;
-    position: left;
-    width: 190px;
-    height: 30px;
-    background: white;
-    border-radius: 10px;
-}
-
-.btn-service :hover{
-    background-color: aquamarine;
-}
-
-.video{
-    position: absolute;
-    width: 628px;
-    height: 338px;
-    left: 711px;
-    top: 1000px;
+.copyright {
+	font-family: 'Roboto';
+	font-size: 25px;
+	text-align: center;
 }
