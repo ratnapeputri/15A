@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose&display=swap');
+
+/* header */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header {
+    background-image: url(bgheader.jpg);
+    margin: 0;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+.top-wrapper {
+    padding: 250px 0 20px 0;
+    color: white;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.top-wrapper h1 {
+    font-size: 45px;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+    font-family: "Roboto";
+}
+
+.btn-wrapper {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: "Roboto";
+    padding-bottom: 100px;
+}
+
+header {
+    height: 93px;
+    width: 100%;
+    position :fixed;
+    
+  }
+
+.btn-wrapper a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 5px 15px;
+    margin: 0 auto;
+}
+
+
+.btn-jelajahi {
+    padding: 15px 27px;
+    color: white;
+    display: inline-block;
+    border-radius: 20px;
+    text-align: center;
+    /* background-color: #f3fdfa2a; */
+    border: 2px solid #f3fdfa;
+}
+
+.btn:hover {
+    opacity: 1px;
+}
+
+.header-left p {
+    width: 180px;
+    margin-top: 25px;
+    color: white;
+    font-size: 27px;
+}
+
+.header-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+
+.header-right a {
+    line-height: 93px;
+    padding:  0 25px;
+    color: white;;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.header-right a:hover {
+    background-color: rgba(2, 33, 48, 0.521);
+}
+
+/* main */
+#service{
+    padding-top: 1500px;
+}
+
+.video {
+    position: absolute;
+    width: 628px;
+    height: 338px;
+    left: 711px;
+    top: 974px;
+}
+
+#service h1{
+    position: absolute;
+    font-family : "Roboto";
+    font-style : bold;
+    height: 46px;
+    left: 103px;
+    top: 974px;
+    font-size: 39px;
+    line-height: 46px;
+}
+
+#service p {
+    position: absolute;
+    width: 468px;
+    height: 168px;
+    left: 103px;
+    top: 1051px;
+    font-family : "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: justify;
+}
+
+.btn-service {
+    position: absolute;
+    width: 342px;
+    height: 52px;
+    left: 103px;
+    top: 1260px;
+    font-family : "Roboto";
+    background: #1A93AD;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.btn-service a{
+    text-decoration: none;
+    color: white;
+}
+
+#content h3 {
+    position: absolute;
+    width: 163px;
+    height: 46px;
+    left: 103px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 39px;
+    line-height: 46px;
+}
+
+#content{
+    padding-bottom: 1500px;
+}
+
+#wisata1 {
+    background-image: url(lombok1.jpg);
+    background-size: cover;
+    /* background-position: -150px 0; */
+    border-radius: 50px;
+    width: 500px;
+    height: 450px;
+    margin-left: 103px;
+    margin-top: 150px;
+    margin-right: 100px;
+}
+
+#wisata2 {
+    background-image: url(lombok2.jpg);
+    background-size: cover;
+    /* background-position: -150px 0; */
+    border-radius: 50px;
+    width: 500px;
+    height: 450px;
+    margin-left: 103px;
+    margin-top: 150px;
+    margin-right: 100px;
+}
+
+#wisata3 {
+    background-image: url(lombok3.jpg);
+    background-size: cover;
+    /* background-position: -150px 0; */
+    border-radius: 50px;
+    width: 500px;
+    height: 450px;
+    margin-left: 103px;
+    margin-top: 150px;
+    margin-right: 100px;
+}
+
+#wisata4 {
+    background-image: url(lombok4.jpg);
+    background-size: cover;
+    /* background-position: -150px 0; */
+    border-radius: 50px;
+    width: 500px;
+    height: 450px;
+    margin-left: 103px;
+    margin-top: 150px;
+    margin-right: 100px;
+}
+
+.content-button:hover {
+    opacity: 75%;
+}
+
+
+.namawisata{
+    font-family: "Red rose";
+    font-size: 45px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 35%;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 35%;
+}
+
+#content a{
+    text-decoration: none;
+}
+
+.content-item{
+    justify-content: center;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px 0;
+    align-items: center;
+}
+
+.content-item .content-button {
+    flex: auto;
+    width: 50%;
+}
+
+/* footer */
+#footer {
+    position: absolute;
+    /* bottom: 0; */
+    /* left: 0;
+    right: 0; */
+    background: black;
+    height: 220px;
+    font-family: "Open Sans";
+    padding-bottom: 40px;
+    color: white;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 0px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.social {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.social li {
+    margin: 10px;
+    padding-right: 5px;
+    font-size: 35px;
+}
+
+.social a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.social a i {
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+
+.social a:hover i {
+    color: aqua;
+}
+
+.footer-bottom {
+    background: black;
+    width: 100vw;
+    padding-top: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: 15px;
+    font-weight: 200;
+}
+
+
+.footer-menu a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}

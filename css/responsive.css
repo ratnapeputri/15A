@@ -1,0 +1,7 @@
+@media(max-width: 1000px ){
+    .content-button{
+        width: 25%;
+        font-size: 24px;
+        display: block;
+    }
+}
