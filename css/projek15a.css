@@ -188,7 +188,7 @@ header {
 }
 
 #wisata2 {
-    background-image: url(image/lombok2.jpg);
+    background-image: url('image/lombok2.jpg');
     background-size: cover;
     /* background-position: -150px 0; */
     border-radius: 50px;
@@ -200,7 +200,7 @@ header {
 }
 
 #wisata3 {
-    background-image: url(image/lombok3.jpg);
+    background-image: url('image/lombok3.jpg');
     background-size: cover;
     /* background-position: -150px 0; */
     border-radius: 50px;
@@ -212,7 +212,7 @@ header {
 }
 
 #wisata4 {
-    background-image: url(image/lombok4.jpg);
+    background-image: url('image/lombok4.jpg');
     background-size: cover;
     /* background-position: -150px 0; */
     border-radius: 50px;
