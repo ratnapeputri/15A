@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Red+Rose&display=swap');
 
+
+
 /* header */
 *{
     margin: 0px;
     padding: 0px;
+    /* top: 0px;
+    right: 0px;
+    left: 0px;
+     */
 }
 .header {
     background-image: url('bgheader.jpg');
@@ -38,8 +44,10 @@
 header {
     height: 93px;
     width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
     position :fixed;
-    
+    /* top: 0;
+    z-index: 10; */
   }
 
 .btn-wrapper a {
@@ -102,13 +110,13 @@ header {
 
 /* main */
 #service{
-    padding-top: 1500px;
+    padding-bottom: 1000px;
 }
 
 .video {
     position: absolute;
-    width: 628px;
-    height: 338px;
+    /* width: 628px; */
+    /* height: 338px; */
     left: 711px;
     top: 974px;
 }
@@ -141,9 +149,10 @@ header {
 .btn-service {
     position: absolute;
     width: 342px;
-    height: 52px;
+    height: 45px;
     left: 103px;
     top: 1260px;
+    padding-top: 15px;
     font-family : "Roboto";
     background: #1A93AD;
     border-radius: 10px;
@@ -161,19 +170,17 @@ header {
 
 #content h3 {
     position: absolute;
-    width: 163px;
-    height: 46px;
+    /* width: 163px; */
+    /* height: 30px; */
     left: 103px;
     font-family: "Roboto";
     font-style: normal;
-    font-weight: normal;
+    padding-bottom: 1300px;
     font-size: 39px;
-    line-height: 46px;
+    /* line-height: 46px; */
 }
 
-#content{
-    padding-bottom: 1500px;
-}
+
 
 #wisata1 {
     background-image: url("lombok1.jpg");
@@ -185,6 +192,7 @@ header {
     margin-left: 103px;
     margin-top: 150px;
     margin-right: 100px;
+    
 }
 
 #wisata2 {
@@ -197,6 +205,7 @@ header {
     margin-left: 103px;
     margin-top: 150px;
     margin-right: 100px;
+    
 }
 
 #wisata3 {
@@ -209,6 +218,7 @@ header {
     margin-left: 103px;
     margin-top: 150px;
     margin-right: 100px;
+    
 }
 
 #wisata4 {
@@ -221,12 +231,16 @@ header {
     margin-left: 103px;
     margin-top: 150px;
     margin-right: 100px;
+    
 }
 
 .content-button:hover {
     opacity: 75%;
 }
 
+.clear{
+    clear: left;
+}
 
 .namawisata{
     font-family: "Red rose";
@@ -250,6 +264,7 @@ header {
     flex-wrap: wrap;
     margin: 100px 0;
     align-items: center;
+    
 }
 
 .content-item .content-button {
@@ -264,9 +279,10 @@ header {
     /* left: 0;
     right: 0; */
     background: black;
-    height: 220px;
+    /* height: 220px; */
     font-family: "Open Sans";
-    padding-bottom: 40px;
+    /* padding-bottom: 40px; */
+    margin-top: 300px;
     color: white;
     text-align: center;
 }
@@ -325,7 +341,7 @@ header {
 .footer-bottom {
     background: black;
     width: 100vw;
-    padding-top: 20px 0;
+    margin-top: 20px 0px;
     text-align: center;
 }
 
@@ -339,6 +355,7 @@ header {
     text-transform: uppercase;
     opacity: 15px;
     font-weight: 200;
+    padding-top: 20px;
 }
 
 
@@ -346,5 +363,6 @@ header {
     text-decoration: none;
     color: white;
     text-align: center;
-    padding: 5px;
+    margin: 20px;
+    margin-bottom: 20px;
 }

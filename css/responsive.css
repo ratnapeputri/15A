@@ -1,7 +1,115 @@
 @media(max-width: 1000px ){
-    .content-button{
-        width: 25%;
-        font-size: 24px;
+    /* body{
+        background-color: aquamarine;
+        
+    } */
+
+    .header{
+        background-size: cover;
+    }
+
+    .header-right {
+        margin-right: 50px;
+    }
+    
+    .video{
+        position: relative;
+        left: 99px;
+        top: 700px;
+        width: 250px;
+        height: 170px;
+        padding-bottom: 300px;
+    }
+
+    .content-item{
+        /* display: block; */
+        padding-left: 15px;
+    }
+
+    #content h3{
+        padding-bottom: 800px;
+    }
+
+    #wisata1 {
+        background-size: cover;
+        border-radius: 30px;
+        width: 300px;
+        height: 250px;
+        margin-left: 103px;
+        margin-top: 30px;
+        /* margin-right: 100px; */
+    }
+
+    #wisata2 {
+        background-size: cover;
+        border-radius: 30px;
+        width: 300px;
+        height: 250px;
+        margin-left: 90px;
+        margin-top: 30px;
+        margin-right: 100px;
+    }
+
+    #wisata3 {
+        background-size: cover;
+        border-radius: 30px;
+        width: 300px;
+        height: 250px;
+        margin-left: 103px;
+        margin-top: 50px;
+        /* margin-right: 100px; */
+    }
+
+    #wisata4 {
+        background-size: cover;
+        border-radius: 30px;
+        width: 300px;
+        height: 250px;
+        margin-left: 90px;
+        margin-top: 50px;
+        margin-right: 100px;
+    }
+
+    .namawisata{
+        font-size: 25px;
+    }
+}
+
+
+@media (max-width: 670px ){
+    /* body{
+        background-color: blueviolet;
+    } */
+
+    .header{
+        background-size:cover;
+    }
+
+    .header-right{
+        margin-right: 25px;
+    }
+
+    .video{
+        position: relative;
+        left: 99px;
+        top: 700px;
+        width: 250px;
+        height: 170px;
+        padding-bottom: 80px;
+    }
+
+    .content-item{
         display: block;
+
+    }
+    
+    #content h3{
+        padding-bottom: 500px;
+    }
+
+    .content-button{
+        padding-top: 150px;
+        left: 30px;
+        margin: auto;
     }
 }
